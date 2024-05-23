@@ -122,7 +122,7 @@ public class Inventory
         LinkedList.Node<ItemStack> curr = this.slots.head;
 
         while (curr != null){
-            if (curr.data.equals(key)) {\
+            if (curr.data.equals(key)) {
                 return curr.data;
             }
             curr = curr.next;
